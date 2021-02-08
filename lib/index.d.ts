@@ -2,8 +2,8 @@ declare module "convert-units" {
     type uDistance = "mm" | "cm" | "m" | "km" | "in" | "ft-us" | "ft" | "mi"; // Distance
     type uArea = "mm2" | "cm2" | "m2" | "ha" | "km2" | "in2" | "ft2" | "ac" | "mi2"; // Area
     type uMass = "mcg" | "mg" | "g" | "kg" | "oz" | "lb" | "mt" | "t" // Mass
-    type uVolume = "mm3" | "cm3" | "ml" | "cl" | "dl" | "l" | "dal" | "hl" | "kl" | "m3" | "km3" | "tsp" | "Tbs" | "in3" | "fl-oz" | "cup" | "pnt" | "qt" | "gal" | "ft3" | "yd3" // Volume
-    type uVolumeFlowRate = "mm3/s" | "cm3/s" | "ml/s" | "cl/s" | "dl/s" | "l/s" | "l/min" | "l/h" | "dal/s" | "dal/min" | "dal/h" | "hl/s" | "hl/min" | "hl/h" | "kl/s" | "kl/min" | "kl/h" | "m3/s" | "m3/min" | "m3/h" | "km3/s" | "tsp/s" | "Tbs/s" | "in3/s" | "in3/min" | "in3/h" | "fl-oz/s" | "fl-oz/min" | "fl-oz/h" | "cup/s" | "pnt/s" | "pnt/min" | "pnt/h" | "qt/s" | "gal/s" | "gal/min" | "gal/h"  | "ft3/s" | "ft3/min" | "ft3/h" | "yd3/s"  | "yd3/min" | "yd3/h"; // Volume Flow Rate
+    type uVolume = "mm3" | "cm3" | "ml" | "cl" | "dl" | "l" | "dal" | "hl" | "kl" | "m3" | "km3" | "tsp" | "Tbs" | "in3" | "fl-oz" | "cup" | "pnt" | "qt" | "gal" | "ft3" | "bbl" | "yd3" // Volume
+    type uVolumeFlowRate = "mm3/s" | "cm3/s" | "ml/s" | "cl/s" | "dl/s" | "l/s" | "l/min" | "l/h" | "dal/s" | "dal/min" | "dal/h" | "hl/s" | "hl/min" | "hl/h" | "kl/s" | "kl/min" | "kl/h" | "m3/s" | "m3/min" | "m3/h" | "km3/s" | "tsp/s" | "Tbs/s" | "in3/s" | "in3/min" | "in3/h" | "fl-oz/s" | "fl-oz/min" | "fl-oz/h" | "cup/s" | "pnt/s" | "pnt/min" | "pnt/h" | "qt/s" | "gal/s" | "gal/min" | "gal/h"  | "ft3/s" | "ft3/min" | "ft3/h" | "bbl/s" | "bbl/min" | "bbl/h" | "yd3/s"  | "yd3/min" | "yd3/h"; // Volume Flow Rate
     type uTemperature = "C" | "F" | "K" | "R"; // Temperature
     type uTime = "ns" | "mu" | "ms" | "s" | "min" | "h" | "d" | "week" | "month" | "year"; // Time
     type uFrequency = "Hz" | "mHz" | "kHz" | "MHz" | "GHz" | "THz" | "rpm" | "deg/s" | "rad/s"; // Frequency
