@@ -1,6 +1,6 @@
 {
   "name": "@samuelpoulin/convert-units",
-  "version": "2.3.6",
+  "version": "2.3.7",
   "description": "Fork of convert-units that includes more units",
   "main": "lib",
   "dependencies": {
