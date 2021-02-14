@@ -1,7 +1,7 @@
 {
-  "name": "convert-units",
-  "version": "2.3.4",
-  "description": "Convert between quantities in different units",
+  "name": "@samuelpoulin/convert-units",
+  "version": "2.3.6",
+  "description": "Fork of convert-units that includes more units",
   "main": "lib",
   "dependencies": {
     "lodash.keys": "2.3.x",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ben-ng/convert-units.git"
+    "url": "git://github.com/samuelpoulin/convert-units.git"
   },
   "keywords": [
     "metric",
